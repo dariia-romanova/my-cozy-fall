@@ -1,0 +1,28 @@
+{
+  "name": "my-cozy-fall",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --port 5199 --strictPort",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "icons": "node scripts/icons.mjs"
+  },
+  "dependencies": {
+    "@fontsource/fraunces": "^5.3.0",
+    "@fontsource/quicksand": "^5.3.0",
+    "@supabase/supabase-js": "^2.118.0",
+    "idb-keyval": "^6.3.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.2.1",
+    "sharp": "^0.35.5",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.5"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "My cozy fall",
+  "short_name": "Cozy fall",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#FFFAED",
+  "theme_color": "#FFFAED",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}
